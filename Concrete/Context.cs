@@ -11,7 +11,6 @@ namespace DataAccessLayer.Concrete
     public class Context: DbContext
     {
         public DbSet<Document> Documents { get; set; }
-        //public DbSet<DocumentType> DocumentTypes { get; set; }
         public DbSet<Folder> Folders { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<RoleAuthority> RoleAuthorities { get; set; }
